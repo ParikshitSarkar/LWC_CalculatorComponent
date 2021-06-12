@@ -1,0 +1,57 @@
+<template>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_1-of-1">
+            <lightning-input type="text" name="input1" disabled value={result}></lightning-input>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <lightning-button label="Add" value='+' class="StretchBtn" variant="brand" onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <lightning-button label="Substract" value='-' class="StretchBtn" variant="destructive" onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <lightning-button label="Divide" value='/' class="StretchBtn" variant="brand-outline" onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <lightning-button label="Multiply" value='*' class="StretchBtn" variant="success" onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="1" class="StretchBtn" value='1' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="2" class="StretchBtn" value='2' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="3" class="StretchBtn" value='3' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="4" class="StretchBtn" value='4' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="5" class="StretchBtn" value='5' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="6" class="StretchBtn" value='6' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="7" class="StretchBtn" value='7' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="8" class="StretchBtn" value='8' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="9" class="StretchBtn" value='9' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="Clear" class="StretchBtn" onclick={clear}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="0" class="StretchBtn" value='0' onclick={dispVal}></lightning-button>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-button label="=" class="StretchBtn" onclick={getResult}></lightning-button>
+        </div>
+
+
+    </div>
+</template>
